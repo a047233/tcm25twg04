@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="enredo.xsd">
+
+  <titulo>A Substância</titulo>
+
+  <sinopse>
+    Em A Substância, Elisabeth Sparkle (Demi Moore) é uma celebridade em declínio
+    que decide experimentar uma droga que cria uma versão mais jovem de si mesma.
+  </sinopse>
+
+  <ano>2024</ano>
+
+  <detalhes>
+    Duração: 2h 20min 
+    Genero: Drama, Terror.
+    Direção: Coralie Fargeat.
+    Elenco: Demi Moore, Margaret Qualley, Dennis Quaid.
+  </detalhes>
+
+</filme>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="filme">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="titulo" type="xsd:string"/>
+                <xsd:element name="opinioes">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="critica" maxOccurs="unbounded">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="autor" type="xsd:string"/>
+                                        <xsd:element name="nota" type="xsd:integer"/>
+                                        <xsd:element name="comentario" type="xsd:string"/>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="curiosidades">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="item" maxOccurs="unbounded">
+                                <xsd:complexType>
+                                    <xsd:simpleContent>
+                                        <xsd:extension base="xsd:string">
+                                            <xsd:attribute name="categoria" type="xsd:string"/>
+                                        </xsd:extension>
+                                    </xsd:simpleContent>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

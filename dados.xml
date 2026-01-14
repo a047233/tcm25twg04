@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd">
+    <titulo>A Substancia</titulo>
+    
+    <opinioes>
+        <critica>
+            <autor>Variety</autor>
+            <nota>9</nota>
+            <comentario>Uma obra-prima visceral de Demi Moore.</comentario>
+        </critica>
+        <critica>
+            <autor>Joao Silva</autor>
+            <nota>8</nota>
+            <comentario>Visualmente incrivel e perturbador na medida certa.</comentario>
+        </critica>
+    </opinioes>
+
+    <curiosidades>
+        <item categoria="Producao">O filme venceu o premio de Melhor Argumento em Cannes.</item>
+        <item categoria="Elenco">Demi Moore considera este um dos papeis mais desafiantes da sua carreira.</item>
+        <item categoria="Tecnico">Os efeitos praticos foram preferidos em vez de CGI para maior realismo.</item>
+    </curiosidades>
+</filme>
